@@ -186,10 +186,28 @@ body {
     }
 }
 
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (min-width: 1200px) {
     body {
         margin: -7px;
     }
+
     .container {
         display: grid;
         grid-template-columns: repeat(4, minmax(255px, 1fr));
@@ -236,5 +254,10 @@ body {
     .card-items5 {
         grid-column: 4 / 5;
         grid-row: 1 / -1;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
     }
 }

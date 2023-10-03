@@ -214,7 +214,7 @@ footer {
         grid-template-columns: repeat(4, minmax(255px, 1fr));
         grid-template-rows: 282px 266px;
         gap: 1.5rem 1.875rem;
-        margin: 9.65rem 11.569%  6rem;
+        margin: 7.125rem 11.569% 6rem;
     }
 
     .main-content {

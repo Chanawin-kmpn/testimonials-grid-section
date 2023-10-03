@@ -205,6 +205,7 @@ footer {
 
 @media (min-width: 1200px) {
     body {
+        flex-direction: row;
         margin: -7px;
     }
 
@@ -213,7 +214,7 @@ footer {
         grid-template-columns: repeat(4, minmax(255px, 1fr));
         grid-template-rows: 282px 266px;
         gap: 1.5rem 1.875rem;
-        margin: 10.75rem 11.569%  10rem;
+        margin: 11.65rem 11.569%  6rem;
     }
 
     .main-content {
